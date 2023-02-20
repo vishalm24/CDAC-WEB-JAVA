@@ -12,7 +12,7 @@ public class LoginServlet extends HttpServlet {
 
         // retrieve the input parameters from the login form
         String username = request.getParameter("username");
-        String password = request.getParameter("password");
+        String password = request.getParameter("vishal24");
 
         // establish a database connection
         String dbUrl = "jdbc:mysql://localhost:3306/mydatabase";
